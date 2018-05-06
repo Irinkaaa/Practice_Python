@@ -9,7 +9,7 @@ def reverse(a):
     print(d)
 
 
-string = str(input("Enter a long string containing multiple word, please: "))
+string = str(input("Enter a long string containing multiple words, please: "))
 
 reverse(string)
 
