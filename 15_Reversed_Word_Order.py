@@ -12,3 +12,12 @@ def reverse(a):
 string = str(input("Enter a long string containing multiple word, please: "))
 
 reverse(string)
+
+#   Solution with one line
+
+
+def reverse_test(string):
+    return " ".join(string.split()[::-1])
+
+
+print(reverse_test("Congrats, you did it successfully !"))
