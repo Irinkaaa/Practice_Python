@@ -31,7 +31,7 @@ def game():
         print(str(name1) + ", you WIN!")
 
 
-print(game())
+game()
 question = input("Do you want to play again? (yes/no): ").lower()
 while question == "yes":
     game()
